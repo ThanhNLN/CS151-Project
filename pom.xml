@@ -14,6 +14,13 @@
 <junit.version>5.9.2</junit.version>  </properties>
 
   <dependencies>
+    <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+    <dependency>
+      <groupId>com.googlecode.json-simple</groupId>
+      <artifactId>json-simple</artifactId>
+      <version>1.1.1</version>
+    </dependency>
+
     <dependency>
       <groupId>org.openjfx</groupId>
       <artifactId>javafx-controls</artifactId>
@@ -62,7 +69,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.example.michelinrestaurantguide/com.example.michelinrestaurantguide.HelloApplication</mainClass>
+              <mainClass>com.example.michelinrestaurantguide/com.example.michelinrestaurantguide.Application</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
