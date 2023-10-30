@@ -1,0 +1,25 @@
+<mxGraphModel dx="0" dy="0" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" background="none" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+    <mxCell id="node1" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;lab3back.BackEnd&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; __resDict: &lt;br/&gt; _WebLink: &lt;br/&gt; _dataFile: &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; __init__(self): &lt;br/&gt; testPrint(self, dictionary): &lt;br/&gt; getAndSaveData(self, subLink): &lt;br/&gt; updateAddress(self): &lt;br/&gt; dataFromWeb(self, subLink): &lt;br/&gt; checkForNextPage(self, subLink): &lt;br/&gt; loadData(self): &lt;br/&gt; createDataBase(self, dict): &lt;br/&gt; getRestaurantsByCityAndCuisine(self, city, cuisine): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-75" y="700" width="297" height="297" as="geometry" />
+    </mxCell>
+    <mxCell id="node0" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;object&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; __doc__: &lt;br/&gt; __dict__: &lt;br/&gt; __slots__: &lt;br/&gt; __module__: &lt;br/&gt; __annotations__: &lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; __class__(self: _T): &lt;br/&gt; __class__(self, __type: Type[object]): &lt;br/&gt; __init__(self): &lt;br/&gt; __new__(cls: Type[_T]): &lt;br/&gt; __setattr__(self, name: str, value: Any): &lt;br/&gt; __eq__(self, o: object): &lt;br/&gt; __ne__(self, o: object): &lt;br/&gt; __str__(self): &lt;br/&gt; __repr__(self): &lt;br/&gt; __hash__(self): &lt;br/&gt; __format__(self, format_spec: str): &lt;br/&gt; __getattribute__(self, name: str): &lt;br/&gt; __delattr__(self, name: str): &lt;br/&gt; __sizeof__(self): &lt;br/&gt; __reduce__(self): &lt;br/&gt; __reduce_ex__(self, protocol: SupportsIndex): &lt;br/&gt; __reduce_ex__(self, protocol: int): &lt;br/&gt; __dir__(self): &lt;br/&gt; __init_subclass__(cls): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="-59" y="89" width="266" height="561" as="geometry" />
+    </mxCell>
+    <mxCell id="node2" parent="1" vertex="1" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;typing.Hashable&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;/&gt;&lt;p style=&quot;margin:0 0 0 4px;line-height:1.6;&quot;&gt; __hash__(self): &lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=14;fontFamily=Helvetica;html=1;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;">
+      <mxGeometry x="4" y="-15" width="140" height="58" as="geometry" />
+    </mxCell>
+    <mxCell id="edge1" edge="1" value="" parent="1" source="node1" target="node0" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=0;startArrow=block;startSize=12;endArrow=none;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.000;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+    <mxCell id="edge0" edge="1" value="" parent="1" source="node0" target="node2" style="html=1;rounded=1;edgeStyle=orthogonalEdgeStyle;dashed=1;startArrow=block;startSize=12;endArrow=none;strokeColor=#595959;exitX=0.500;exitY=0.000;exitDx=0;exitDy=0;entryX=0.500;entryY=1.001;entryDx=0;entryDy=0;">
+      <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <Array as="points" />
+      </mxGeometry>
+    </mxCell>
+  </root>
+</mxGraphModel>
