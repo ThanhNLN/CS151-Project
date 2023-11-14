@@ -4,14 +4,14 @@ public class Restaurant {
     private String name;
     private String url;
     private String location;
-    private String cusine;
+    private String cuisine;
     private String address;
 
     public Restaurant(String name, String url, String location, String cusine, String address) {
         this.name = name;
         this.url = url;
         this.location = location;
-        this.cusine = cusine;
+        this.cuisine = cusine;
         this.address = address;
     }
 
@@ -39,12 +39,12 @@ public class Restaurant {
         this.location = location;
     }
 
-    public String getCusine() {
-        return cusine;
+    public String getCuisine() {
+        return cuisine;
     }
 
-    public void setCusine(String cusine) {
-        this.cusine = cusine;
+    public void setCuisine(String cuisine) {
+        this.cuisine = cuisine;
     }
 
     public String getAddress() {
@@ -61,7 +61,7 @@ public class Restaurant {
                 "name='" + name + '\'' +
                 ", url='" + url + '\'' +
                 ", location='" + location + '\'' +
-                ", cusine='" + cusine + '\'' +
+                ", cusine='" + cuisine + '\'' +
                 ", address='" + address + '\'' +
                 '}';
     }
